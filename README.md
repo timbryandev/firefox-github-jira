@@ -29,6 +29,9 @@ Install from here: https://chrome.google.com/webstore/detail/github-jira-integra
 - [ ] Filter by org
 
 
+#### 1.3.1
+- Changing the PR title autofill to be in the format `PROJ-1234:` to match internal conventions.
+
 #### 1.3.0
 - Fix prefilled data being overwritten by plugin (thanks @blakegearin | fixes #49)
 - Upgrade manifest from v2 to v3 (thanks @HanJaeJoon)

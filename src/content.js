@@ -354,7 +354,7 @@ async function handlePrCreatePage() {
                 }
 
                 if (prTitleEnabled) {
-                    document.querySelector('input#pull_request_title').value = `[${ticketNumber.toUpperCase()}] ${summary}`;
+                    document.querySelector('input#pull_request_title').value = `${ticketNumber.toUpperCase()}: ${summary}`;
                 }
 
                 let description = orgDescription
